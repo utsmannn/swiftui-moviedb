@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CE3F9D35C1A92ACF575B74E9"
+               BuildableName = "swiftui-moviedb.app"
+               BlueprintName = "swiftui-moviedb"
+               ReferencedContainer = "container:swiftui-moviedb.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CE3F9D35C1A92ACF575B74E9"
+            BuildableName = "swiftui-moviedb.app"
+            BlueprintName = "swiftui-moviedb"
+            ReferencedContainer = "container:swiftui-moviedb.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
