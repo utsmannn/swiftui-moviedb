@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE3F90639E47E368EA7304D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3F9659CDF1B0B338661DDD /* Assets.xcassets */; };
+		CE3F9378903EF81CAAE3B1A6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F9BF31766B1E324A86ADB /* Network.swift */; };
 		CE3F9593BA4E4C43D422A131 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F95E960506E44C86F632B /* MovieList.swift */; };
 		CE3F9627351D2B490EFC6AAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3F9F2B812B52F767FC48F7 /* LaunchScreen.storyboard */; };
 		CE3F97313892AEAC2D1C8B79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3F9A188C7EDF5E4CA2062C /* Preview Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		CE3F9A188C7EDF5E4CA2062C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE3F9A2C75BA3856557C1B5D /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
 		CE3F9AAE9A27A2F74BA979DF /* ItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		CE3F9BF31766B1E324A86ADB /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		CE3F9C5995F0F2832B033535 /* swiftui-moviedb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-moviedb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3F9E47E3715B3ABC56EDC6 /* Statics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statics.swift; sourceTree = "<group>"; };
 		CE3F9FCFCBBE7823979D0488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				CE3F9245919A36CDA56D9141 /* MovieListViewModel.swift */,
 				CE3F9A2C75BA3856557C1B5D /* MovieDetailViewModel.swift */,
 				CE3F998D9986460AE576DBE4 /* Extensions.swift */,
+				CE3F9BF31766B1E324A86ADB /* Network.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				CE3F99448F033A7564D6C2A3 /* ContentView.swift in Sources */,
 				CE3F9D8CFC5C1FBEE6AFB3B6 /* ItemView.swift in Sources */,
 				CE3F99288657BBA7FB0E89B3 /* DetailView.swift in Sources */,
+				CE3F9378903EF81CAAE3B1A6 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

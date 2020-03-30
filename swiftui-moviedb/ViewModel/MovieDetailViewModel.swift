@@ -5,7 +5,7 @@
 
 import Foundation
 
-class MovieDetailViewModel : ObservableObject {
+class MovieDetailViewModel : ObservableObject, NetworkMovie {
 
     @Published var movieDetail = MovieDetail()
     @Published var isLoading = true
@@ -17,32 +17,17 @@ class MovieDetailViewModel : ObservableObject {
     private func getDetailMovies(movieId: Int) {
         let urlDetailMovie = URL(string: "\(Statics.BASE_URL)\(Statics.DETAIL(id: movieId))\(Statics.API_KEY)")
         guard let url = urlDetailMovie else { return }
+        let urlRequest = URLRequest(url: url)
 
-        URLSession.shared.dataTask(with: url) { (data: Data?, response: URLResponse?, error: Error?) -> Void in
-            print("connection successful")
-            self.onMainThread {
-                self.isLoading = true
+        getData(request: urlRequest) { (result: Result<MovieDetail, Error>) in
+            switch result {
+            case .success(let response):
+                self.movieDetail = response
+                self.isLoading = false
+            case .failure(let error as Error):
+                print("error -> \(error.localizedDescription)")
             }
-
-            guard let dataMovie = data, error == nil, response != nil else {
-                print("connection failed")
-                self.onMainThread {
-                    self.isLoading = false
-                }
-                return
-            }
-
-            do {
-                let responses = try JSONDecoder().decode(MovieDetail.self, from: dataMovie)
-                self.onMainThread {
-                    self.movieDetail = responses
-                    self.isLoading = false
-                }
-
-            } catch {
-                print("get data error -> \(error.localizedDescription)")
-            }
-        }.resume()
+        }
     }
 
 }

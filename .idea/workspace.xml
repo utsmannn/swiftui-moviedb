@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d90809-5fe3-49bf-bf42-1e348777a5a2" name="Default Changelist" comment="" />
+    <list default="true" id="91d90809-5fe3-49bf-bf42-1e348777a5a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swiftui-moviedb/ViewModel/Network.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swiftui-moviedb.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/swiftui-moviedb.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swiftui-moviedb/ViewModel/Extensions.swift" beforeDir="false" afterPath="$PROJECT_DIR$/swiftui-moviedb/ViewModel/Extensions.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swiftui-moviedb/ViewModel/MovieDetailViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/swiftui-moviedb/ViewModel/MovieDetailViewModel.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swiftui-moviedb/ViewModel/MovieListViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/swiftui-moviedb/ViewModel/MovieListViewModel.swift" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_500108BC-031D-4CF5-A981-FFFB62EF74D4" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZodHGZux5gAXp3izoIcATD6oqh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -17,6 +31,7 @@
   <component name="PropertiesComponent">
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="swiftui-moviedb" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -42,7 +57,9 @@
       <option name="presentableId" value="Default" />
       <updated>1585509290905</updated>
       <workItem from="1585509292908" duration="1248000" />
-      <workItem from="1585510931422" duration="6622000" />
+      <workItem from="1585510931422" duration="7160000" />
+      <workItem from="1585562210196" duration="1961000" />
+      <workItem from="1585604243160" duration="3056000" />
     </task>
     <servers />
   </component>
@@ -50,22 +67,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1273" height="262" key="GridCell.Tab.0.bottom" timestamp="1585518665996">
+    <state x="400" y="264" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585604761624">
       <screen x="0" y="23" width="1680" height="974" />
     </state>
-    <state width="1273" height="262" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1585518665996" />
-    <state width="1273" height="262" key="GridCell.Tab.0.center" timestamp="1585518665995">
+    <state x="400" y="264" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.974@0.23.1680.974" timestamp="1585604761624" />
+    <state width="1273" height="262" key="GridCell.Tab.0.bottom" timestamp="1585608539904">
       <screen x="0" y="23" width="1680" height="974" />
     </state>
-    <state width="1273" height="262" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1585518665995" />
-    <state width="1273" height="262" key="GridCell.Tab.0.left" timestamp="1585518665994">
+    <state width="1273" height="262" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1585608539904" />
+    <state width="1273" height="262" key="GridCell.Tab.0.center" timestamp="1585608539903">
       <screen x="0" y="23" width="1680" height="974" />
     </state>
-    <state width="1273" height="262" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1585518665994" />
-    <state width="1273" height="262" key="GridCell.Tab.0.right" timestamp="1585518665995">
+    <state width="1273" height="262" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1585608539903" />
+    <state width="1273" height="262" key="GridCell.Tab.0.left" timestamp="1585608539903">
       <screen x="0" y="23" width="1680" height="974" />
     </state>
-    <state width="1273" height="262" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1585518665995" />
+    <state width="1273" height="262" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1585608539903" />
+    <state width="1273" height="262" key="GridCell.Tab.0.right" timestamp="1585608539903">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state width="1273" height="262" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1585608539903" />
     <state x="164" y="149" key="SettingsEditor" timestamp="1585513007343">
       <screen x="0" y="23" width="1680" height="974" />
     </state>
